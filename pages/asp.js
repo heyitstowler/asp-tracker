@@ -1,14 +1,17 @@
 import { scrape } from "./api/scrape";
+import Layout from '../components/layout';
 
 export default function AspPage(props) {
   const {
     data: { status },
   } = props;
   return (
-    <main>
-      <h1>Current ASP Status</h1>
-      <h2>{status}</h2>
-    </main>
+    <Layout>
+      <main>
+        <h1>Current ASP Status</h1>
+        <h2>{status}</h2>
+      </main>
+    </Layout>
   );
 }
 
