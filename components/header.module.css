@@ -1,0 +1,29 @@
+
+.header {
+    position: absolute;
+}
+
+.header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106, 90, 205);
+    text-decoration: none;
+    list-style: none;
+    width: 100vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+.header li {
+    font-size: 200%;
+    padding: 10px;
+
+}
+
+
+.header li:hover {
+    font-size: 200%;
+    background-color: white;
+
+}
+
